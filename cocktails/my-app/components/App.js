@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <Nav />
       <Routes>
-        <div> greg </div>
         <Route path="/accueil" element={<Home />} />
       </Routes>
     </div>

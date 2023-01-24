@@ -5,9 +5,9 @@ import Products from "./Products";
 function App() {
     return (
         <div className="App">
-            <Nav />
+            <Products />
             <Routes>
-                <Route path="/accueil" element={<Home />} />
+                <Route path="/produits" element={<Products />} />
             </Routes>
         </div>
     );
